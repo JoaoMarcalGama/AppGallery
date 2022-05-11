@@ -5,21 +5,31 @@
                   x:Class="AppGallery.AppBase.Menu">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            <StackLayout>
-                <Label Text="Páginas"/>
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="Páginas"/>
 
 
-                <Button Text="ContentPage"  Clicked="AbrirContentPage"/>
-                <Button Text="NavigationPage" Clicked="AbrirNavigationPage"/>
-                <Button Text="CarouselPage" Clicked="AbrirCarouselPage"/>
-                <Button Text="TabbedPage" Clicked="AbrirTabbedPage"/>
-                <Button Text="MasterDetailPage" Clicked="AbrirMasterDetailPage"/>
-                <Button Text="Modal" Clicked="AbrirPaginaModal"/>
+                    <Button Text="ContentPage"  Clicked="AbrirContentPage"/>
+                    <Button Text="NavigationPage" Clicked="AbrirNavigationPage"/>
+                    <Button Text="CarouselPage" Clicked="AbrirCarouselPage"/>
+                    <Button Text="TabbedPage" Clicked="AbrirTabbedPage"/>
+                    <Button Text="MasterDetailPage" Clicked="AbrirMasterDetailPage"/>
+                    <Button Text="Modal" Clicked="AbrirPaginaModal"/>
 
-                <Label Text="Leiautes"/>
-                <Button Text="StackLayout" Clicked="AbirStackLayout"/>
-                <Button Text="Grid" Clicked="AbrirGrid"/>
-            </StackLayout>
+                    <Label Text="Leiautes"/>
+                    <Button Text="StackLayout" Clicked="AbirStackLayout"/>
+                    <Button Text="Grid" Clicked="AbrirGrid"/>
+                    <Button Text="AbsoluteLayout" Clicked="AbrirAbsoluteLayout"/>
+                    <Button Text="RelativeLayout" Clicked="AbirRelativeLayout"/>
+                    <Button Text="FlexLayout" Clicked="AbrirFlexLayout"/>
+                    <Button Text="ScrollView" Clicked="Button_Clicked"/>
+                    <Button Text="ContentView" Clicked="AbrirContentView"/>
+                    
+                    
+
+                </StackLayout>
+            </ScrollView>
         </ContentPage>        
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
