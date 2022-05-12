@@ -2,6 +2,7 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AppGallery.AppBase"
+
                   x:Class="AppGallery.AppBase.Menu">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
@@ -25,8 +26,23 @@
                     <Button Text="FlexLayout" Clicked="AbrirFlexLayout"/>
                     <Button Text="ScrollView" Clicked="Button_Clicked"/>
                     <Button Text="ContentView" Clicked="AbrirContentView"/>
-                    
-                    
+                    <Button Text="Frame" Clicked="AbrirFrame"/>
+
+                    <Label Text="Controles"/>
+                    <Button Text="BoxView" Clicked="AbrirBoxView"/>
+                    <Button Text="Label" Clicked="AbrirLabel"/>
+                    <Button Text="Button" Clicked="AbrirButton"/>
+                    <Button Text="ImageButton" Clicked="AbrirImageButton"/>
+                    <Button Text="Image" Clicked="AbrirImage"/>
+                    <Button Text="Entry" Clicked="AbrirEntry"/>
+                    <Button Text="Editor" Clicked="AbrirEditor"/>
+                    <Button Text="CheckBox" Clicked="AbrirCheckBox"/>
+                    <Button Text="RadioButton" Clicked="AbrirRadioButton"/>
+                    <Button Text="Switch" Clicked="AbrirSwitch"/>
+                    <Button Text="Stepper" Clicked="AbrirStepper"/>
+                    <Button Text="Slider" Clicked="AbrirSlider"/>
+                    <Button Text="Picker" Clicked="AbrirPicked"/>
+
 
                 </StackLayout>
             </ScrollView>
