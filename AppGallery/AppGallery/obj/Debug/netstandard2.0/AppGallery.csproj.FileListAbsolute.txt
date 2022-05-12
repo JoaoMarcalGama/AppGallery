@@ -53,3 +53,4 @@ C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Co
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\PassadorControle\Passador.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\DeslizanteControle\Deslizante.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\SelecaoControle\Selecao.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\DataSelecaoControle\DataSelecao.xaml.g.cs
