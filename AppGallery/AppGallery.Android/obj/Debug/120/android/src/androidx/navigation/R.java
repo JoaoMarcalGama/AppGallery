@@ -167,16 +167,16 @@ public final class R {
 		public static final int notification_template_part_time = 0x7f0b006d;
 	}
 	public static final class string {
-		public static final int status_bar_notification_info_overflow = 0x7f0e0072;
+		public static final int status_bar_notification_info_overflow = 0x7f0f0072;
 	}
 	public static final class style {
-		public static final int TextAppearance_Compat_Notification = 0x7f0f0184;
-		public static final int TextAppearance_Compat_Notification_Info = 0x7f0f0185;
-		public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0f0187;
-		public static final int TextAppearance_Compat_Notification_Time = 0x7f0f018a;
-		public static final int TextAppearance_Compat_Notification_Title = 0x7f0f018c;
-		public static final int Widget_Compat_NotificationActionContainer = 0x7f0f0274;
-		public static final int Widget_Compat_NotificationActionText = 0x7f0f0275;
+		public static final int TextAppearance_Compat_Notification = 0x7f100184;
+		public static final int TextAppearance_Compat_Notification_Info = 0x7f100185;
+		public static final int TextAppearance_Compat_Notification_Line2 = 0x7f100187;
+		public static final int TextAppearance_Compat_Notification_Time = 0x7f10018a;
+		public static final int TextAppearance_Compat_Notification_Title = 0x7f10018c;
+		public static final int Widget_Compat_NotificationActionContainer = 0x7f100274;
+		public static final int Widget_Compat_NotificationActionText = 0x7f100275;
 	}
 	public static final class styleable {
 		public static final int[] ActivityNavigator = new int[] { 0x01010003, 0x7f030003, 0x7f030122, 0x7f030123, 0x7f03039e };

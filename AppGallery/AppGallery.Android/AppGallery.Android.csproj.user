@@ -6,5 +6,6 @@
     <ActiveDebugProfile>Samsung SM-F415F</ActiveDebugProfile>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
     <DefaultDevice>pixel_2_xl_-_api_30</DefaultDevice>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
 </Project>

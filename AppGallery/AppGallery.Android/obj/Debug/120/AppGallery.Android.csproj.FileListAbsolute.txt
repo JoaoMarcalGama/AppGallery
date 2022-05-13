@@ -87,6 +87,12 @@ C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-mdpi\
 C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-xhdpi\send.png
 C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-xxhdpi\send.png
 C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-xxxhdpi\send.png
+C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-hdpi\xamarin.png
+C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-ldpi\xamarin.png
+C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-mdpi\xamarin.png
+C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-xhdpi\xamarin.png
+C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-xxhdpi\xamarin.png
+C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-xxxhdpi\xamarin.png
 C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\uploadflags.txt
 C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\resolvedassemblies.hash
 C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\android\assets\AppGallery.Android.dll
@@ -653,9 +659,5 @@ C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\stamp\_ConvertReso
 C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
-C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-hdpi\xamarin.png
-C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-ldpi\xamarin.png
-C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-mdpi\xamarin.png
-C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-xhdpi\xamarin.png
-C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-xxhdpi\xamarin.png
-C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\drawable-xxxhdpi\xamarin.png
+C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\raw\alarm.mp3
+C:\Dev\AppGallery\AppGallery\AppGallery.Android\obj\Debug\120\res\raw\spacedu.mp4

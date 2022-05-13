@@ -189,5 +189,53 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.DataSelecaoControle.DataSelecao());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirTimePicker(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.TempoSelecaoControle.TempoSelecao());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirActivityIndicator(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.IndicadorDeAtividadeControle.IndicadorDeAtividade());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirProgressBar(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.BarraDeProgressoControle.BarraDeProgresso());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirSearchBar(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.BarraDePesquisaControle.BarraDePesquisa());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirRefreshView(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.AtualizarControle.Atualizar());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirSwipeView(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.ArrastaControle.Arrasta());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirWebView(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.NavegadorControle.Navegador());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirMediaElement(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.MediaControle.Media());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

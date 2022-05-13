@@ -16,7 +16,7 @@ namespace AppGallery.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 
-            Xamarin.Forms.Forms.SetFlags(new string[] { "RadioButton_Experimental" });
+            Xamarin.Forms.Forms.SetFlags(new string[] { "RadioButton_Experimental", "SwipeView_Experimental", "MediaElement_Experimental" });
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
         }

@@ -6,11 +6,11 @@
     the contents are regenerated.
     -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="br.com.spacedu.xamarinformsgallery" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
-  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="Xamarin Forms Galley" android:theme="@style/MainTheme" android:icon="@mipmap/ic_launcher" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:usesCleartextTraffic="true" android:label="Xamarin Forms Galley" android:theme="@style/MainTheme" android:icon="@mipmap/ic_launcher" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:theme="@style/MainTheme" android:name="crc64757075b84c5d475a.MainActivity" />
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/ic_launcher" android:theme="@style/MainTheme.Splash" android:name="crc64757075b84c5d475a.SplashActivity" android:exported="true">
       <intent-filter>

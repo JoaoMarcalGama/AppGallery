@@ -16,5 +16,10 @@ namespace AppGallery.XamarinForms.Controles.DataSelecaoControle
         {
             InitializeComponent();
         }
+
+        private void DatePicker_DateSelected(object sender, DateChangedEventArgs e)
+        {
+            lblInformativo.Text = "Data antiga: " + e.OldDate.ToString("dd/MM/yyyy") +  "Data Nova:" + e.NewDate.ToString("dd/MM/yyyy");
+        }
     }
 }
