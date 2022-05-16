@@ -51,7 +51,13 @@
                     <Button Text="SwipeView" Clicked="AbrirSwipeView"/>
                     <Button Text="WebView" Clicked="AbrirWebView"/>
                     <Button Text="MediaElement" Clicked="AbrirMediaElement"/>
+                    <Button Text="Expander" Clicked="AbrirExpander"/>
 
+                    <Label Text="Listas"/>
+                    <Button Text="TableView" Clicked="AbirTableView"/>
+                    <Button Text="ListView" Clicked="AbrirListView"/>
+                    <Button Text="CollectionView" Clicked="AbrirCollectionView"/>
+                    <Button Text="CarouselView" Clicked="AbrirCarouselView"/>
 
                 </StackLayout>
             </ScrollView>
