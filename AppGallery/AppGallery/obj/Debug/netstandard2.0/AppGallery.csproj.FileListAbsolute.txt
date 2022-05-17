@@ -19,9 +19,11 @@ C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Co
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\CampoDeEntradaSimplesControle\CampoDeEntradaSimples.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\DataSelecaoControle\DataSelecao.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\DeslizanteControle\Deslizante.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ExpansorControle\Expansor.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ImagemControle\Imagem.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\IndicadorDeAtividadeControle\IndicadorDeAtividade.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\InterruptorControle\Interruptor.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\MediaControle\Media.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\NavegadorControle\Navegador.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\PassadorControle\Passador.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\RotuloControle\Rotulo.xaml.g.cs
@@ -37,6 +39,14 @@ C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Le
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Leiautes\PilhaLeiaute\Pilha.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Leiautes\QuadradoLeiaute\Quadrado.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Leiautes\RelativoLeiaute\Relativo.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\CarrosselControle\Carrossel.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\ClassesEspeciais\ColecaoObservavel.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\ClassesEspeciais\NotificarMudancaPropriedade.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\ClassesEspeciais\SeletorTemplate.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\ColecaoControle\Colecao.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\IndicadorControle\Indicador.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\ListaControle\Lista.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\TabelaControle\Tabela.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\Modal\Conteudo01.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\Modal\PaginaDeModal.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Paginas\PaginaDeAba\Abas.xaml.g.cs
@@ -61,9 +71,3 @@ C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.dll
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\refint\AppGallery.dll
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.pdb
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\ref\AppGallery.dll
-C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ExpansorControle\Expansor.xaml.g.cs
-C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\MediaControle\Media.xaml.g.cs
-C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\TabelaControle\Tabela.xaml.g.cs
-C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\ListaControle\Lista.xaml.g.cs
-C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\ColecaoControle\Colecao.xaml.g.cs
-C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Listas\CarrosselControle\Carrossel.xaml.g.cs

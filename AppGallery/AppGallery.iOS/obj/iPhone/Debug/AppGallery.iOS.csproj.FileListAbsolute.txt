@@ -1,5 +1,6 @@
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\AppGallery.iOS.exe
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\AppGallery.iOS.pdb
+C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\Xamarin.CommunityToolkit.dll
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
@@ -61,4 +62,3 @@ C:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhone\Debug\AppGallery.iOS.cspr
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhone\Debug\AppGallery.iOS.csproj.CopyComplete
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhone\Debug\AppGallery.iOS.exe
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhone\Debug\AppGallery.iOS.pdb
-C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\Xamarin.CommunityToolkit.dll
