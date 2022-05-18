@@ -243,6 +243,12 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.ExpansorControle.Expansor());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+        private void AbrirExpanderPropertys(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.ExpansorControle.ExpansorPropriedadesControle());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
 
         private void AbirTableView(object sender, EventArgs e)
         {
@@ -289,6 +295,37 @@ namespace AppGallery.AppBase
         private void AbrirDataTemplateSelector(object sender, EventArgs e)
         {
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ClassesEspeciais.SeletorTemplate());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirExplicityStyle(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.EstiloExplicito.Explicito());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirImplicitStyle(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.EstiloImplicito.Implicito());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirGlobalStyle(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.EstiloGlobal.Global());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirInheritSyle(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.EstiloHerdado.Herdado());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+
+        }
+
+        private void AbrirDynamicStyle(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.EstiloDinamico.Dinamico());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
     }

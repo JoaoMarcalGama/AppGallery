@@ -49,14 +49,14 @@ namespace AppGallery.XamarinForms.Listas.ClassesEspeciais
                 
 
 
-                new Produto{Nome = "Bifes", Valor = "1.0", Setor = "Açougue"},
-                new Produto{Nome = "Carne moída", Valor = "1.0", Setor = "Açougue"},
-                new Produto{Nome = "Carne de frango", Valor = "1.0", Setor = "Açougue"},
-                new Produto{Nome = "Filés de peixes", Valor = "1.0", Setor = "Açougue"},
-                new Produto{Nome = "Bacon", Valor = "1.0", Setor = "Açougue"},
-                new Produto{Nome = "Hambúrgueres", Valor = "1.0", Setor = "Açougue"},
-                new Produto{Nome = "Linguiças", Valor = "1.0", Setor = "Açougue"},
-                new Produto{Nome = "Salsichas", Valor = "1.0", Setor = "Açougue"},
+                new Produto{Nome = "Bifes", Valor = "1.0", Setor = "Acougue"},
+                new Produto{Nome = "Carne moída", Valor = "1.0", Setor = "Acougue"},
+                new Produto{Nome = "Carne de frango", Valor = "1.0", Setor = "Acougue"},
+                new Produto{Nome = "Filés de peixes", Valor = "1.0", Setor = "Acougue"},
+                new Produto{Nome = "Bacon", Valor = "1.0", Setor = "Acougue"},
+                new Produto{Nome = "Hambúrgueres", Valor = "1.0", Setor = "Acougue"},
+                new Produto{Nome = "Linguiças", Valor = "1.0", Setor = "Acougue"},
+                new Produto{Nome = "Salsichas", Valor = "1.0", Setor = "Acougue"},
 
             };
         }
@@ -68,4 +68,28 @@ namespace AppGallery.XamarinForms.Listas.ClassesEspeciais
         public string Valor { get; set; }
         public string Setor { get; set; }
     }
+
+    public class SetorDataTemplateSelector : DataTemplateSelector 
+    {
+        public DataTemplate MerceariaTemplate { get; set; }
+        public DataTemplate FeiraTemplate { get; set; }
+        public DataTemplate AcougueTemplate { get; set; }
+
+        protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
+        {
+            Produto produto = (Produto)item;
+
+            if (produto.Setor == "Mercearia")
+                return MerceariaTemplate;
+
+            if (produto.Setor == "Feira")
+                return FeiraTemplate;                      
+
+            if (produto.Setor == "Acougue")
+                return AcougueTemplate;
+
+            return null;
+        }
+    }
+
 }

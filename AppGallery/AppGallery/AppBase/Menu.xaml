@@ -52,6 +52,8 @@
                     <Button Text="WebView" Clicked="AbrirWebView"/>
                     <Button Text="MediaElement" Clicked="AbrirMediaElement"/>
                     <Button Text="Expander" Clicked="AbrirExpander"/>
+                    <Button Text="ExpanderPropertys" Clicked="AbrirExpanderPropertys"/>
+                    
 
                     <Label Text="Listas"/>
                     <Button Text="TableView" Clicked="AbirTableView"/>
@@ -62,6 +64,13 @@
                     <Button Text="ObservableCollection" Clicked="AbrirObservableCollection"/>
                     <Button Text="INotifyPropertyChanged" Clicked="AbrirINotifyPropertyChanged"/>
                     <Button Text="DataTemplateSelector" Clicked="AbrirDataTemplateSelector"/>
+
+                    <Label Text="Estilos"/>
+                    <Button Text="ExplicityStyle" Clicked="AbrirExplicityStyle"/>
+                    <Button Text="ImplicitStyle" Clicked="AbrirImplicitStyle"/>
+                    <Button Text="GlobalStyle" Clicked="AbrirGlobalStyle"/>
+                    <Button Text="InheritSyle" Clicked="AbrirInheritSyle"/>
+                    <Button Text="DynamicStyle" Clicked="AbrirDynamicStyle"/>
 
                 </StackLayout>
             </ScrollView>
