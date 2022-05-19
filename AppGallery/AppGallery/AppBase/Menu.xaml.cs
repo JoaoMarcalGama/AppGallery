@@ -328,5 +328,65 @@ namespace AppGallery.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.EstiloDinamico.Dinamico());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirStyleClass(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.EstiloClasse.Classe());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirVisualStateManager(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.VSM.VSM());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirVisualMaterialDesign(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.MaterialDesign.Material());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirFont(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.FontePersonalizada.Fonte());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirChangeTheme(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.TrocarTema.Tema());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirLightDarkTheme(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.TemaClaroEscuro.ClaroEscuro());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirSimples(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Animacoes.Simples.Simples());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirGestosSimples(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Gestos.Gestos());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirDisplay(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Classes.Alerta.Alerta());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void AbrirConverter(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Classes.Conversores.Conversor());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

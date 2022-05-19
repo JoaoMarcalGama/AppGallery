@@ -11,10 +11,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Fontes\font-awesome.otf" />
+    <None Remove="Resources\Fontes\gotham-black.ttf" />
+    <None Remove="Resources\Fontes\gotham-light.ttf" />
+    <None Remove="Resources\Fontes\gotham.ttf" />
     <None Remove="XamarinForms\Controles\ImagemControle\background.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Fontes\font-awesome.otf" />
+    <EmbeddedResource Include="Resources\Fontes\gotham-black.ttf" />
+    <EmbeddedResource Include="Resources\Fontes\gotham-light.ttf" />
+    <EmbeddedResource Include="Resources\Fontes\gotham.ttf" />
     <EmbeddedResource Include="XamarinForms\Controles\ImagemControle\background.png" />
   </ItemGroup>
 
@@ -22,6 +30,7 @@
     <PackageReference Include="Xamarin.CommunityToolkit" Version="1.1.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="5.0.0.2196" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,6 +47,15 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="AppBase\Menu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Animacoes\Simples\Simples.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Classes\Alerta\Alerta.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Classes\Conversores\Conversor.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\ArrastaControle\Arrasta.xaml">
@@ -115,6 +133,9 @@
     <EmbeddedResource Update="XamarinForms\Controles\TempoSelecaoControle\TempoSelecao.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Estilos\EstiloClasse\Classe.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Estilos\EstiloDinamico\Dinamico.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -128,6 +149,30 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Estilos\EstiloImplicito\Implicito.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Estilos\FontePersonalizada\Fonte.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Estilos\MaterialDesign\Material.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Estilos\TemaClaroEscuro\ClaroEscuro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Estilos\TrocarTema\DarkTheme.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Estilos\TrocarTema\LightTheme.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Estilos\TrocarTema\Tema.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Estilos\VSM\VSM.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Gestos\Gestos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Leiautes\AbsolutoLeiaute\Absoluto.xaml">

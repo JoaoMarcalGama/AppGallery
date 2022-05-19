@@ -5,7 +5,7 @@
              Padding="10"
              x:Class="AppGallery.XamarinForms.Controles.ExpansorControle.ExpansorListView">
     <ContentPage.Content>
-        <StackLayout>
+        <!--<StackLayout>
             <xct:Expander>
                 <xct:Expander.Header>
                     <Grid HeightRequest="50">
@@ -32,6 +32,6 @@
                     </ListView>
                 </xct:Expander.Content>
             </xct:Expander>
-        </StackLayout>
+        </StackLayout>-->
     </ContentPage.Content>
 </ContentPage>

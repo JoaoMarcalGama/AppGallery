@@ -6,6 +6,9 @@ C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.Gene
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppBase\Inicio.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppBase\Menu.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Animacoes\Simples\Simples.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Classes\Alerta\Alerta.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Classes\Conversores\Conversor.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ArrastaControle\Arrasta.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\AtualizarControle\Atualizar.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\BarraDePesquisaControle\BarraDePesquisa.xaml.g.cs
@@ -20,6 +23,7 @@ C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Co
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\DataSelecaoControle\DataSelecao.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\DeslizanteControle\Deslizante.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ExpansorControle\Expansor.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ExpansorControle\ExpansorListView.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ExpansorControle\ExpansorPropriedadesControle.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ImagemControle\Imagem.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\IndicadorDeAtividadeControle\IndicadorDeAtividade.xaml.g.cs
@@ -30,10 +34,20 @@ C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Co
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\RotuloControle\Rotulo.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\SelecaoControle\Selecao.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\TempoSelecaoControle\TempoSelecao.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\EstiloClasse\Classe.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\EstiloDinamico\Dinamico.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\EstiloExplicito\Explicito.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\EstiloGlobal\Global.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\EstiloHerdado\Herdado.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\EstiloImplicito\Implicito.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\FontePersonalizada\Fonte.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\MaterialDesign\Material.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\TemaClaroEscuro\ClaroEscuro.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\TrocarTema\DarkTheme.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\TrocarTema\LightTheme.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\TrocarTema\Tema.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\VSM\VSM.xaml.g.cs
+C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Gestos\Gestos.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Leiautes\AbsolutoLeiaute\Absoluto.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Leiautes\BarraDeRolagemLeiaute\BarraDeRolagem.xaml.g.cs
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Leiautes\ControleLeiaute\CardDiretor.xaml.g.cs
@@ -76,5 +90,3 @@ C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.dll
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\refint\AppGallery.dll
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\AppGallery.pdb
 C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\ref\AppGallery.dll
-C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Estilos\EstiloDinamico\Dinamico.xaml.g.cs
-C:\Dev\AppGallery\AppGallery\AppGallery\obj\Debug\netstandard2.0\XamarinForms\Controles\ExpansorControle\ExpansorListView.xaml.g.cs

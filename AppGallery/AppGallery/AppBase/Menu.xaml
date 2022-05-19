@@ -71,7 +71,22 @@
                     <Button Text="GlobalStyle" Clicked="AbrirGlobalStyle"/>
                     <Button Text="InheritSyle" Clicked="AbrirInheritSyle"/>
                     <Button Text="DynamicStyle" Clicked="AbrirDynamicStyle"/>
+                    <Button Text="StyleClass" Clicked="AbrirStyleClass"/>
+                    <Button Text="VisualStateManager" Clicked="AbrirVisualStateManager"/>
+                    <Button Text="MaterialDesign" Clicked="AbrirVisualMaterialDesign"/>
+                    <Button Text="Font" Clicked="AbrirFont"/>
+                    <Button Text="ChangeTheme" Clicked="AbrirChangeTheme"/>
+                    <Button Text="LightDarkTheme" Clicked="AbrirLightDarkTheme"/>
 
+                    <Label Text="Animações"/>
+                    <Button Text="Simples" Clicked="AbrirSimples"/>
+
+                    <Label Text="Gestos"/>
+                    <Button Text="GestosSimples" Clicked="AbrirGestosSimples"/>
+                    
+                    <Label Text="Classes úteis"/>
+                    <Button Text="Display" Clicked="AbrirDisplay"/>
+                    <Button Text="Converter" Clicked="AbrirConverter"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>        

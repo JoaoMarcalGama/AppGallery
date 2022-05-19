@@ -44,6 +44,9 @@ C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Pl
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\Xamarin.Forms.Material.dll
+C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\Xamarin.Forms.Material.pdb
+C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\MaterialComponents.dll
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\AppGallery.dll
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\AppGallery.pdb
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
