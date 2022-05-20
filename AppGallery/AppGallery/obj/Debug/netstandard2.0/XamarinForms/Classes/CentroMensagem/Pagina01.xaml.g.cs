@@ -8,21 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.AppBase.Menu.xaml", "AppBase/Menu.xaml", typeof(global::AppGallery.AppBase.Menu))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("AppGallery.XamarinForms.Classes.CentroMensagem.Pagina01.xaml", "XamarinForms/Classes/CentroMensagem/Pagina01.xaml", typeof(global::AppGallery.XamarinForms.Classes.CentroMensagem.Pagina01))]
 
-namespace AppGallery.AppBase {
+namespace AppGallery.XamarinForms.Classes.CentroMensagem {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("AppBase\\Menu.xaml")]
-    public partial class Menu : global::Xamarin.Forms.MasterDetailPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("XamarinForms\\Classes\\CentroMensagem\\Pagina01.xaml")]
+    public partial class Pagina01 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.CollectionView MenuColecao;
+        private global::Xamarin.Forms.ListView Lista01;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Menu));
-            MenuColecao = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.CollectionView>(this, "MenuColecao");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Pagina01));
+            Lista01 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "Lista01");
         }
     }
 }

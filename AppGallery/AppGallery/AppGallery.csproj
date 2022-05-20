@@ -15,6 +15,9 @@
     <None Remove="Resources\Fontes\gotham-black.ttf" />
     <None Remove="Resources\Fontes\gotham-light.ttf" />
     <None Remove="Resources\Fontes\gotham.ttf" />
+    <None Remove="Resources\Fontes\Montserrat-Bold.ttf" />
+    <None Remove="Resources\Fontes\Montserrat-Light.ttf" />
+    <None Remove="Resources\Fontes\Montserrat-Regular.ttf" />
     <None Remove="XamarinForms\Controles\ImagemControle\background.png" />
   </ItemGroup>
 
@@ -23,6 +26,9 @@
     <EmbeddedResource Include="Resources\Fontes\gotham-black.ttf" />
     <EmbeddedResource Include="Resources\Fontes\gotham-light.ttf" />
     <EmbeddedResource Include="Resources\Fontes\gotham.ttf" />
+    <EmbeddedResource Include="Resources\Fontes\Montserrat-Bold.ttf" />
+    <EmbeddedResource Include="Resources\Fontes\Montserrat-Light.ttf" />
+    <EmbeddedResource Include="Resources\Fontes\Montserrat-Regular.ttf" />
     <EmbeddedResource Include="XamarinForms\Controles\ImagemControle\background.png" />
   </ItemGroup>
 
@@ -55,7 +61,16 @@
     <EmbeddedResource Update="XamarinForms\Classes\Alerta\Alerta.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Classes\CentroMensagem\Pagina01.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Classes\CentroMensagem\Pagina02.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Classes\Conversores\Conversor.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Classes\Detectar\Detectar.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\ArrastaControle\Arrasta.xaml">

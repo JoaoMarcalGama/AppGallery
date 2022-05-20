@@ -4,10 +4,56 @@
              x:Class="AppGallery.App">
     <Application.Resources>
         <ResourceDictionary>
+            
             <Style x:Key="EstiloGlobalBotao" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="Black"/>
                 <Setter Property="TextColor" Value="White"/>
             </Style>
+            
+            <!--Cores (Light)-->
+            <Color x:Key="LightPrimaryColor">#FFFFFF</Color>
+            <Color x:Key="LightSecondaryColor">#EDEDED</Color>
+            <Color x:Key="LightThirdColor">#000000</Color>
+            
+            
+            <!--Cores (Dark)-->
+            <Color x:Key="DarkPrimaryColor">#202020</Color>
+            <Color x:Key="DarkSecondaryColor">#000000</Color>
+            <Color x:Key="DarkThirdColor">#FFFFFF</Color>
+
+            
+
+
+
+            <AppThemeBinding x:Key="PageBackgroundColor" Light="{DynamicResource LightPrimaryColor}" Dark="{DynamicResource DarkPrimaryColor}"/>
+            <AppThemeBinding x:Key="BackgroundColor" Light="{DynamicResource LightSecondaryColor}" Dark="{DynamicResource DarkSecondaryColor}"/>
+            <AppThemeBinding x:Key="TextColor" Light="#000000" Dark="#FFFFFF"/>
+
+            <!--Página-->
+            <Style  TargetType="Page" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light = {StaticResource LightPrimaryColor}, Dark ={StaticResource DarkPrimaryColor}}"/>
+            </Style>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{AppThemeBinding Light = {StaticResource LightSecondaryColor}, Dark ={StaticResource DarkSecondaryColor}}"/>
+                <Setter Property="BarTextColor" Value="{AppThemeBinding Light = {StaticResource LightThirdColor}, Dark ={StaticResource DarkThirdColor}}"/>
+            </Style>
+
+            <Style x:Key="PageMenu" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light = {StaticResource LightPrimaryColor}, Dark ={StaticResource DarkPrimaryColor}}"/>
+            </Style>
+
+            <!--Controles-->
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light = {StaticResource LightThirdColor}, Dark ={StaticResource DarkThirdColor}}"/>
+                <Setter Property="FontFamily" Value="Montserrat"/>
+            </Style>
+            
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light = {StaticResource LightPrimaryColor}, Dark ={StaticResource DarkSecondaryColor}}"/>
+                <Setter Property="TextColor" Value="{AppThemeBinding Light = {StaticResource LightThirdColor}, Dark ={StaticResource DarkThirdColor}}"/>
+                <Setter Property="FontFamily" Value="Montserrat"/>
+            </Style>
+
         </ResourceDictionary>
 
     </Application.Resources>
