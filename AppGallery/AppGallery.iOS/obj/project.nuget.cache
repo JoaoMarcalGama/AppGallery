@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4pMqinnuKiO0zuY5N/cfZFmi/ZOPnxyO+rb5udPE30Ql+HEnbivXLJw46Jr58iCW/ACLwMjg9HYHA3QDaeFUYA==",
+  "dgSpecHash": "8BiIaXdZl+Jw7O3j4DyL/e9i5lnEWCDTe7/MIbDDtAaQ72I1UMclW7uJ/ID3NqkGk68qr1MwQTuHtpPRdNuRRA==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppGallery\\AppGallery\\AppGallery.iOS\\AppGallery.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\leojharris.xforms.plugin.enhancedentry\\1.0.6\\leojharris.xforms.plugin.enhancedentry.1.0.6.nupkg.sha512",
     "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\xamarin.communitytoolkit\\1.1.0\\xamarin.communitytoolkit.1.1.0.nupkg.sha512",
     "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

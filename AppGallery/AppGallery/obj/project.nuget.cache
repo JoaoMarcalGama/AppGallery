@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mIkjVoC3IziLV0cnJTKf6XQ2NwbEJ8pd7VmDzWiqPYVuz0t/F/oy0TDyWlBM8411xlQIYvZU4UpTlXXT9w07Mg==",
+  "dgSpecHash": "hkH6L+mXSn1lHjCaL0kxQWENVk46Aviz4mu3gbfzO7DlCZ7+7Is8bjUnUkQ5HphfPvIb2oTEQjnQm6taEIMxfQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppGallery\\AppGallery\\AppGallery\\AppGallery.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\leojharris.xforms.plugin.enhancedentry\\1.0.6\\leojharris.xforms.plugin.enhancedentry.1.0.6.nupkg.sha512",
     "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

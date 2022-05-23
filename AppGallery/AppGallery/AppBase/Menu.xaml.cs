@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppGallery.AppBase.Modals;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,37 @@ namespace AppGallery.AppBase
         public Menu()
         {
             InitializeComponent();
+
+
         }
+
+        private void AbrirPagina(object sender, EventArgs e)
+        {
+            //Pegar o parâmetro (Página)
+            TappedEventArgs eventArgs = (TappedEventArgs)e;
+            Pagina parametro = (Pagina)eventArgs.Parameter;
+
+
+            //Verificar se tem ou não navegação
+            Page pagina = null;
+            if (parametro.TemNavegacao)
+            {
+                
+                pagina = new NavigationPage(
+                    (Page)Activator.CreateInstance(parametro.ArquivoPagina)
+                    );
+            }
+            else
+            {
+                pagina = (Page)Activator.CreateInstance(parametro.ArquivoPagina);
+            }
+
+            //Abrir a tela e fechar o menu
+            Detail = pagina;
+            IsPresented = false;
+        }
+
+
 
         //private void AbrirContentPage(object sender, EventArgs e)
         //{

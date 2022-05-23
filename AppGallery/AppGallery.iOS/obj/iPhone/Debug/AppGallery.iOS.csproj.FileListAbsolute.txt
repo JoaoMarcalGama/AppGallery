@@ -65,3 +65,5 @@ C:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhone\Debug\AppGallery.iOS.cspr
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhone\Debug\AppGallery.iOS.csproj.CopyComplete
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhone\Debug\AppGallery.iOS.exe
 C:\Dev\AppGallery\AppGallery\AppGallery.iOS\obj\iPhone\Debug\AppGallery.iOS.pdb
+C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\LeoJHarris.FormsPlugin.Abstractions.dll
+C:\Dev\AppGallery\AppGallery\AppGallery.iOS\bin\iPhone\Debug\LeoJHarris.FormsPlugin.iOS.dll

@@ -60,7 +60,7 @@ namespace AppGallery
 
         }
 
-        public List<PaginaColecao> PaginaColecao{ 
+        public static List<PaginaColecao> MenuItensColecao{ 
             get{
                 var paginas = new PaginaColecao()
                 {
@@ -164,8 +164,19 @@ namespace AppGallery
                 };
                 classesuteis.Nome = "Classes úteis";
 
-                return new List<PaginaColecao>();
-            } 
+                return new List<PaginaColecao>() 
+                {
+                    paginas,
+                    leiautes,
+                    controles,
+                    listas,
+                    estilos,
+                    animacoes,
+                    gestos,
+                    classesuteis
+                };
+
+            }
         }
         protected override void OnStart()
         {

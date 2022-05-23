@@ -1,12 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:enhancedEntry="clr-namespace:LeoJHarris.FormsPlugin.Abstractions;assembly=LeoJHarris.FormsPlugin.Abstractions"
              x:Class="AppGallery.AppBase.Inicio">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid ColumnSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            
+            <enhancedEntry:EnhancedEntry Placeholder="Pesquisar" Grid.Row="0" Grid.Column="0" 
+                                         BackgroundColor="{AppThemeBinding Light = {StaticResource SearchEntryBackgroundColor1}, Dark ={StaticResource SearchEntryBackgroundColor2}}"  
+                                         Style="{DynamicResource SearchEntry}" BorderWidth="2" BorderColor="{AppThemeBinding Light = {StaticResource SearchEntryBorderColor1}, Dark ={StaticResource SearchEntryBorderColor2}}" CornerRadius="0"/>
+            <Button Text="OK" Grid.Row="0" Grid.Column="1" Style="{DynamicResource SearchButton}"/>
+
+            <CollectionView Grid.Row="1" Grid.ColumnSpan="2"/>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cMxd9T1sLoV//vCNl1w73MgDu3l6cPMzDDrl2u3IuG3OHkNovYtqqJv8nF3wukIf5+/mwFXODTNuAkSxQeNI9Q==",
+  "dgSpecHash": "K7dgWxADk5ZUhUkmjd1HPLXtNUzKCN7PVvV5UTa4alB+7ZpNdwU6NCIKl5+oyHrqUlV1AuEvusDBwd8TDHlsTg==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppGallery\\AppGallery\\AppGallery.Android\\AppGallery.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\leojharris.xforms.plugin.enhancedentry\\1.0.6\\leojharris.xforms.plugin.enhancedentry.1.0.6.nupkg.sha512",
     "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\xamarin.android.support.annotations\\26.0.2\\xamarin.android.support.annotations.26.0.2.nupkg.sha512",
+    "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\xamarin.android.support.compat\\26.0.2\\xamarin.android.support.compat.26.0.2.nupkg.sha512",
     "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\JoãoMarcal-Admin\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",

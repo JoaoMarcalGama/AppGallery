@@ -24,6 +24,7 @@ namespace AppGallery.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             global::Xamarin.Forms.Forms.Init();
+            LeoJHarris.FormsPlugin.iOS.EnhancedEntryRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

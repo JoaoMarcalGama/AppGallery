@@ -2,30 +2,43 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AppGallery.AppBase"
-
+             xmlns:viewmodel="clr-namespace:AppGallery.AppBase.ViewModels"
                   x:Class="AppGallery.AppBase.Menu">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" Style="{DynamicResource PageMenu}">
-            <CollectionView x:Name="MenuColecao" IsGrouped="True">
+
+            <ContentPage.BindingContext>
+                <viewmodel:MenuViewModel/>
+            </ContentPage.BindingContext>
+            
+            <CollectionView ItemsSource="{Binding MenuItens}" IsGrouped="True">
+
                 <CollectionView.Header>
-                    <Button Text=""/>
+                    <StackLayout Padding="30" BackgroundColor="{AppThemeBinding Light = {StaticResource LogoBackgroundColor1}, Dark ={StaticResource LogoBackgroundColor2}}">
+                        <Image Style="{DynamicResource Logomarca}"/>
+                        <Label Text="Xamarin Forms &#x0a;Gallery" StyleClass="FontSmall" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
                 </CollectionView.Header>
+                
                 <CollectionView.GroupHeaderTemplate>
                     <DataTemplate>
-                        <Label Text="{Binding Nome}"/>
+                        <Label Text="{Binding Nome}" Style="{DynamicResource GroupTitle}"/>
                     </DataTemplate>
                 </CollectionView.GroupHeaderTemplate>
 
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout>
-                            <Label Text="{Binding Nome}"/>
-                            <Label Text="{Binding Descricao}" TextColor="LightGray"/>
+                        <StackLayout Padding="25, 5, 10, 5">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirPagina" CommandParameter="{Binding .}" />
+                            </StackLayout.GestureRecognizers>
+                            <Label Text="{Binding Nome}" Style="{DynamicResource PageNameTitle}"/>
+                            <Label Text="{Binding Descricao}" Style="{DynamicResource PageDescriptionTitle}"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            
+
             
             
             <!--<ScrollView>
